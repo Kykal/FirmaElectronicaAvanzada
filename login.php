@@ -41,12 +41,9 @@
             </header>
 
             <main class="center">
-                <h2>¡Registrate!</h2>
+                <h2>¡Inicia sesión!</h2>
                 <br>
-                <form action="signup.php" method="POST">
-                    <label for="">Nombre de usuario</label> <br>
-                    <input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Nombre de usuario" > <br><br>
-
+                <form action="login.php" method="POST">
                     <label for="">Correo electrónico</label> <br>
                     <input type="email" name="email" id="email" autocomplete="off" placeholder="Correo electrónico"> <br><br>
 
@@ -56,8 +53,8 @@
                     <input type="submit" value="Registrarse">
                 </form>
                 <br><br><br>
-                ¿Ya tienes cuenta?<br>
-                <a href="login.php">¡Inicia sesión!</a>
+                ¿No tienes cuenta?<br>
+                <a href="signup.php">¡Hazte una!</a>
             </main>
         </div>
     </body>
