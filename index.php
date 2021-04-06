@@ -3,21 +3,28 @@
 
 ?>
 
-<!DOCTYPE html lang="es">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>E-Signature</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Desarrolladores" content="[1800717] Alan Xavier Benavides Benavides">
+        <meta name="" content="[XXXXXXX] ?">
 
         <script type="text/javascript" src="https://livejs.com/live.js"></script>
 
+        <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/base.css" />
         <link rel="stylesheet" href="./css/index.css" />
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat' type='text/css' />
 
+        <title>E-Signature</title>
     </head>
     <body>
         <div class="wrapper">
             <header class="center">
-                <h1>E-Signature</h1>
+                <a href="index.php"><img src="./img/logo.png" alt="E-Signature logo"></a>
             </header>
 
             <main class="center">

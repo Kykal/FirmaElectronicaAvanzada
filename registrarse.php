@@ -15,7 +15,7 @@
     </head>
     <body>
         <header class="center">
-            E-Signature
+            <a href="index.php"><img src="./img/logo.png" alt="E-Signature logo"></a>
         </header>
         <br />
     <br />

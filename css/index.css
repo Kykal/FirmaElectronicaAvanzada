@@ -1,10 +1,4 @@
-﻿body {
-    font-family: 'Montserrat', Arial, Verdana;
-    background-color: lightgray;
-    margin: 0;
-}
-
-.wrapper {
+﻿.wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -29,8 +23,4 @@ main {
 main > .span {
     top: 50%;
     bottom: auto;
-}
-
-.center {
-    text-align: center;
 }
