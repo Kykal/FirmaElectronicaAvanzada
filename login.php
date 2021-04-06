@@ -1,21 +1,5 @@
 <?php
-    if(!empty($_POST)){
-
-        include 'conn.php';
-
-        $nombre = $_POST['nombre'];
-        $correo = $_POST['email'];
-        $contra = $_POST['contra'];
-
-        $insertar = "INSERT INTO    users   (nombre,    correoE,    contra)
-                                    VALUES  ('$nombre', '$correo',  '$contra')";
-
-        $recurso = sqlsrv_prepare($conn, $insertar);
-
-        if( sqlsrv_execute($recurso) ){
-            header('Location: firma.php');
-        }
-    }
+    include 'conn.php';
 ?>
 
 <!DOCTYPE html>
@@ -43,14 +27,14 @@
             <main class="center">
                 <h2>¡Inicia sesión!</h2>
                 <br>
-                <form action="login.php" method="POST">
+                <form action="checkin.php" method="POST">
                     <label for="">Correo electrónico</label> <br>
-                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Correo electrónico"> <br><br>
+                    <input type="email" name="correo" id="correo" autocomplete="off" placeholder="Correo electrónico"> <br><br>
 
                     <label for="">Contraseña</label> <br>
                     <input type="password" name="contra" id="contra" autocomplete="off" placeholder="Contraseña"> <br><br>
 
-                    <input type="submit" value="Registrarse">
+                    <input type="submit" value="Iniciar sesión">
                 </form>
                 <br><br><br>
                 ¿No tienes cuenta?<br>

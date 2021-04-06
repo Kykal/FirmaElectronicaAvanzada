@@ -7,6 +7,8 @@ body {
 header {
     grid-column: 1;
     grid-row: 1;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
     background-color: #2c2f33;
     color: aliceblue;
 }
