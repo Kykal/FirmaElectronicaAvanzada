@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', Arial, Verdana;
+    background-color: lightgray;
+    margin: 0;
+}
+
+header {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    background-color: #2c2f33;
+    color: aliceblue;
+}
