@@ -22,5 +22,5 @@ extension=php_sqlsrv.dll
 extension=php_sqlsrv_80_ts.dll
 ```
 4. En Microsoft SQL Server estando conectado a una maquina de bases de datos:
-   - Abrir el archivo ``snippet_ADMON_MC`` y correr todo el snippet.
+   - Abrir el archivo ``snippet_ADMON_MC`` y **ejecutar** todo el snippet.
    - Se necesita saber el **nombre de servidor**, para ello damos clic derecho al nombre de la maquina de bases de datos > Propiedades > Ver propiedades de conexion > Producto > Nombre de servidor, copiamos el nombre que se muestra a la derecha de ese apartado.
