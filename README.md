@@ -1,6 +1,6 @@
 # ¿Cómo correrlo en tu computadora?
 
-**Rquisitos:**
+**Requisitos:**
 - Microsoft SQL Server (localhost).
 - Microsoft SQL Server Management Studio 18.
 - Microsoft Visual Studio.
