@@ -24,7 +24,7 @@
         $recurso = sqlsrv_prepare($conn, $insertar);
         
         sqlsrv_execute($recurso);
-        $command = escapeshellcmd('python pdfs.py ' . $nombre . ' ' .  $RFC . ' ' . $cerDir . ' ' . $keyDir . ' ' . $pdfDir);
+        $command = escapeshellcmd('python pdfs.py "' . $nombre . '" ' .  $RFC . ' ' . $cerDir . ' ' . $keyDir . ' ' . $pdfDir);
         $output = shell_exec($command);
 
     }
