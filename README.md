@@ -28,3 +28,5 @@ extension=php_sqlsrv_80_ts.dll
    - En el archivo ``conn.php`` línea 2, donde dice ``$serverName = "..."`` cambiar el string por el nombre de servidor que habiamos copiado anteriormente.
 
 Hasta este punto ya debe ser posible usar el proyecto.
+
+Usar la página ``http://localhost/admon/firma.php``.
