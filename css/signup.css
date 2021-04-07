@@ -20,6 +20,7 @@ form > input[type=submit]{
     padding-right: 0.8%;
     border: 1px solid black;
     transition: 0.2s;
+    border-radius: 10px;
 }
 
 form > input[type=submit]:hover {

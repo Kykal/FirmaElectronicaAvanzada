@@ -1,5 +1,5 @@
 <?php
-    if(!empty($_POST)){
+    if( !empty($_POST) ){
 
         include 'conn.php';
 
