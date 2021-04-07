@@ -25,6 +25,6 @@ extension=php_sqlsrv_80_ts.dll
    - Abrir el archivo ``snippet_ADMON_MC`` y **ejecutar** todo el snippet.
    - Se necesita saber el **nombre de servidor**, para ello damos clic derecho al nombre de la maquina de bases de datos > Propiedades > Ver propiedades de conexion > Producto > Nombre de servidor, copiamos el nombre que se muestra a la derecha de ese apartado.
 5. En Visual Studio / VS Code:
-   - En el archivo ``conn.php`` línea 2, donde dice $serverName = "..." cambiar el string por el nombre de servidor que habiamos copiado anteriormente.
+   - En el archivo ``conn.php`` línea 2, donde dice ``$serverName = "..."`` cambiar el string por el nombre de servidor que habiamos copiado anteriormente.
 
 Hasta este punto ya debe ser posible usar el proyecto.
