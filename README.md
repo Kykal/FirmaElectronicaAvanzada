@@ -14,4 +14,4 @@ pip install reportlab
 
 **Pasos para correrlo:**
 1. Descargar todos los archivos en algun lugar de tu computadora.
-2. Los archivos ``php_sqlsrv.dll`` y ``php_sqlsrv_80_ts.dll`` colocarlos en la carpeta ``.xampp\htdocs\admon`` (si no se tiene esa carpeta, crear una).
+2. Los archivos ``php_sqlsrv.dll`` y ``php_sqlsrv_80_ts.dll`` colocarlos en el directorio ``.xampp\htdocs\admon`` (si no se tiene esa carpeta, crear una).
