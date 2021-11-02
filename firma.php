@@ -26,7 +26,6 @@
         sqlsrv_execute($recurso);
         $command = escapeshellcmd('python pdfs.py "' . $nombre . '" ' .  $RFC . ' ' . $cerDir . ' ' . $keyDir . ' ' . $pdfDir);
         $output = shell_exec($command);
-
     }
 ?> 
 
@@ -37,7 +36,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="Desarrolladores" content="[1800717] Alan Xavier Benavides Benavides">
-        <meta name="" content="[XXXXXXX] ?">
+        <meta name="" content="[1810686] Jesús Marcelo Gutiérrez Bravo">
 
         <link rel="stylesheet" href="./css/base.css" />
         <link rel="stylesheet" href="./css/signup.css" />
